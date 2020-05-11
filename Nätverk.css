@@ -1,0 +1,101 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*css body*/
+body{
+	background-color: #3b6978;
+	color: #fff;
+}
+/*css en h1 text som är lägnst upp på sidan*/
+h1{
+	text-align: center;
+	font-size: 50px:
+}
+/*css till meny*/
+.global-meny{
+	list-style: none;
+	margin-top: 50px;
+}
+/*css till meny*/
+.global-meny li{
+	display: inline-block;
+}
+
+/*css till meny*/
+.global-meny li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 15px;
+	font-size: 25px;
+}
+
+/*css rubrik överst på sidan*/
+.Rubrik {
+	text-align: center;
+	font-size: 50px;
+	color: #fff;
+}
+/*css text om nätverk*/
+.textnätverk{
+	font-size: 25;
+	color: #fff;
+	text-align: center;
+}
+/*css till bilden som ligger under texten nätverk*/
+.bild{
+	width:300px; 
+	 height:200px;
+	 position: center;
+	 padding: 50px;
+}
+/*css till nätverk texten*/
+.textnätverk{
+	text-align: center;
+	font-size: 25px;
+	
+}
+/*css till den interna meyn*/
+.container ul{
+	list-style: none;
+	
+}
+/*css till den interna meyn*/
+.container ul li{
+	background-color: #3b6978;
+	width: 150px;
+	border: 1px solid white;
+	height: 50px;
+	line-height: 50px;
+	text-align:center;
+	float: left;
+	color: #fff;
+	font-size: 18px;
+	position: relative;
+}
+/*css till den interna meyn*/
+.container ul li:hover{
+	background-color: red;
+}
+/*css till den interna meyn*/
+.container ul ul{
+	display: none;
+}
+/*css till den interna meyn*/
+.container ul li:hover > ul{
+	display: block;
+}
+/*css till den interna meyn*/
+.container ul ul ul{
+	margin-left: 150px;
+	top: 0px;
+	position: absolute;
+}
+/*css till den interna meyn*/
+.container ul li a{
+	list-style: none;
+	text-decoration: none;
+	color: #fff;
+}
+

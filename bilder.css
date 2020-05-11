@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*css body*/
+body{
+	background-color: #3b6978;
+	color: #fff;
+}
+/*css en h1 text som är lägnst upp på sidan*/
+h1{
+	text-align: center;
+	font-size: 50px:
+}
+/*css till meny*/
+.global-meny{
+	list-style: none;
+	margin-top: 50px;
+}
+/*css till meny*/
+.global-meny li{
+	display: inline-block;
+}
+/*css till meny*/
+.global-meny li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 15px;
+	font-size: 25px;
+}
+/*css rubrik överst på sidan*/
+.Rubrik {
+	text-align: center;
+	font-size: 50px;
+	color: #fff;
+}
+/*css rubriken till bild sidan*/
+.Övertext {
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+}
+/*css till bilder på bild sidan*/
+.Mac{
+	margin: 35px;
+}
+/*css till bilder på bild sidan*/
+.leksak{
+	width:400px; 
+	 height:400px;
+	 margin: 40px;
+}
+/*css till bilder på bild sidan*/
+.leksaker{
+	font-size: 40px;
+}
+/*css till bilder på bild sidan*/
+.underrubrik{
+	font-size: 25px;
+}

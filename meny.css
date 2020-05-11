@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*css body*/
+body{
+	background-color: #3b6978;
+	color: #fff;
+}
+/*css en h1 text som är lägnst upp på sidan*/
+h1{
+	text-align: center;
+	font-size: 50px:
+}
+/*css till meny*/
+.global-meny{
+	list-style: none;
+	margin-top: 50px;
+}
+/*css till meny*/
+.global-meny li{
+	display: inline-block;
+}
+
+/*css till meny*/
+.global-meny li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 15px;
+	font-size: 25px;
+}
+
+/*css till rubriken*/
+.Rubrik {
+	text-align: center;
+	font-size: 50px;
+	color: #fff;
+}
+/*css till en dator*/
+.datortext {
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+}
+
+
+/*css till en bild på en dator*/
+.bild{
+	width:300px; 
+	 height:200px;
+	 position: center;
+	 padding: 50px;
+}
+/*css till en bild*/
+.serverbild{
+	width:300px; 
+	 height:200px;
+	 position: center;
+	 padding: 50px;
+}
+/*css till en bild på en dator*/
+.gamingdator{
+	width:400px; 
+	 height:300px;
+	 position: center;
+	 padding: 50px;
+}
+/*css till en text om nätverk*/
+.textnätverk{
+	font-size: 25;
+	color: #fff;
+	text-align: center;
+}
+/*css till en text om nätverk*/
+.inget{
+	color: #3b6978;
+	font-size: 50px;
+	text-align: center;
+}
+/*css till text*/
+.under2{
+	text-decoration:none;
+}
+/*css till inet text*/
+.Inet{
+	text-align: center;
+}
+/*css till fakta tex*/
+.textnätverk{
+	text-align: center;
+	font-size: 25px;
+	
+}
+/*css till en titel*/
+.textserver{
+	text-align: center;
+	font-size: 25px;
+}
+/*css till en titel*/
+.underserver{
+	font-size: 15px; 
+	text-align: center;
+	margin: 10px;
+}
+/*css till en titel*/
+.textdator{
+	font-size: 15px; 
+	text-align: center;
+	margin: 10px;
+}
+/*css till en titel*/
+.datortext{
+	font-size: 15px; 
+	text-align: center;
+	margin: 10px
+}
+/*css till en titel*/
+.historia{
+	font-size: 25px; 
+	text-align: center;
+	margin: 10px
+}
+/*css till en titel*/
+.texthistoria{
+	font-size: 15px; 
+	text-align: center;
+	margin: 10px
+}
+/*css till en video*/
+.video{
+	font-size: 25px; 
+	text-align: center;
+	margin: 10px
+}

@@ -1,0 +1,79 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+/*css body*/
+body{
+background-color: #3b6978;
+color: #fff;
+}
+/*css en h1 text som är lägnst upp på sidan*/
+h1{
+text-align: center;
+font-size: 50px:
+}
+/*css till meny*/
+.global-meny{
+list-style: none;
+margin-top: 50px;
+}
+/*css till meny*/
+.global-meny li{
+display: inline-block;
+}
+/*css till meny*/
+.global-meny li a{
+text-decoration: none;
+color: #fff;
+padding: 15px;
+font-size: 25px;
+}
+
+/*css rubrik överst på sidan*/
+.Rubrik {
+text-align: center;
+font-size: 50px;
+color: #fff;
+}
+/*css till text om datorer på dator sidan*/
+.textdator{
+font-size: 15px; 
+text-align: center;
+margin: 10px;
+}
+/*css till text om datorer på dator sidan*/
+.datortext{
+font-size: 15px; 
+text-align: center;
+margin: 10px
+}
+/*css till bild på dator sidan*/
+.gamingdator{
+width:400px; 
+height:300px;
+position: center;
+padding: 50px;
+}
+/*css till text om fakta på dator sidan*/
+.under2{
+text-decoration:none;
+}
+/*css till text om fakta på dator sidan*/
+.historia{
+text-align: center;
+}
+/*css till tabellen på dator sidan*/
+.table2 {
+width: 400px;
+float: left;
+margin: 10px;
+padding: 10px;
+background-color: #95B995;
+border-radius: 15px;
+}
+/*css till tabellen på dator sidan*/
+.table_cell2 {
+background: #204051;
+border-radius: 5px;
+}

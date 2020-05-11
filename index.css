@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*css body och även backgrunden*/
+body{
+	background-image:url(https://quickbutik.imgix.net/10028q/products/5dab7725ef166.jpeg);     
+	background-size: cover;     
+	background-attachment: fixed; 
+}
+/*css en h1 text som är lägnst upp på sidan*/
+h1{
+	text-align: center;
+	font-size: 50px:
+}
+/*css till meny*/
+.global-meny{
+	list-style: none;
+	margin-top: 50px;
+}
+/*css till meny*/
+.global-meny li{
+	display: inline-block;
+}
+
+/*css till meny*/
+.global-meny li a{
+	text-decoration: none;
+	color: #204051;
+	padding: 15px;
+	font-size: 25px;
+}
+
+/*css till rubriken*/
+.Rubrik {
+	text-align: center;
+	font-size: 50px;
+	color: #204051;
+}
+/*css till en titel*/
+.Övertext {
+	font-size: 25px;
+	color: #204051;
+	text-align: center;
+}
+/*css till en bild på en dator*/
+.gamingdator{
+	 width:400px; 
+	 height:300px;
+	 position: center;
+	 padding: 50px;
+	 display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+/*css till text*/
+.text{
+	color: #204051; 
+	font-size: 25 px; 
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+/*css till ommig*/
+.ommig{
+	text-align: center;
+	font-size: 20px; 
+	color: #204051;
+}
+/*css till tommig*/
+.tommig {
+	text-align: center;
+	font-size: 15px; 
+	color: #204051;
+}
+
+
+
+
+
+
+
+
+
+
+
+
