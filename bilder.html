@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="sv">
-<meta charset="UTF-8">
 <!--Slut Test-->
 <head>
+	<meta charset="UTF-8">
     <title>Slut test</title>
     <link rel="stylesheet" href="bilder.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,9 +11,10 @@
 
 	<body>
 		<header>
-			<H1> <em>Teknik</em> </h1>
-			<H1 class="Rubrik">Bilder</h1> 
+			<h1> <em>Teknik</em> </h1>
+			<h1 class="Rubrik">Bilder</h1> 
 			<!--global meny-->
+			<nav>
 			<ul class="global-meny"> 
 			<li> <a href="index.html">Hem</a></li>
 			<li> <a href="Nätverk.html">Nätverk</a></li>
@@ -21,40 +22,37 @@
 			<li> <a href="Dator.html">Dator</a></li>
 			<li> <a href="bilder.html">Bilder</a></li>
 			</ul>
+			</nav>
 		</header>
 		<main>
 			<center>
 			<!--bilder-->
 			<img class="Mac" src="https://www.elgiganten.se/image/dv_web_D180001002275629/51204/huawei-matebook-13-core-i7ssd-512-gbnvidia-mx250-baerbar-dator-graa.jpg?$prod_all4one$" alt="Gaming dator">
 			<p class="leksaker">MACBOOK</P>
-			</center>
-			<center>
 			<img class="leksak" src="https://quickbutik.imgix.net/10028q/products/5dab78e41b1bf.jpeg" alt="Gaming dator">
 			<p class="leksaker">CHALLENGER LAPTOP</P>
-			</center>
-			<center>
 			<img class="leksak" src="https://leasingmaskiner.se/wp-content/uploads/sites/13/2018/11/894037_1_1200x1200_w_g.jpg" alt="Gaming dator">
 			<p class="leksaker">ASUS GAMING</P>
-			</center>
-			<center>
 			<img class="leksak" src="https://empori.se/i/UserFiles/apple-imac-repair.jpg" alt="Gaming dator">
 			<p class="leksaker">IMAC</P>
 			</center>
 		</main>
 		<footer>
 			<center>
+			<form>
 			<!--formulär-->
-			<p class="underrubrik">Vad tycker du?</p>
-			Förnamn:<br>
-			<input type="text" name="fnamn" id="fnamn" /> <br>
+			<legend>Vad tyckte du?</legend>
+			<label>Förnamn:</label><br>
+			<input type="text" name="fnamn" id="fnamn" > <br>
 
-			Efternamn:<br>
-			<input type="text" name="enamn" id="enamn" /> <br>
+			<label>Efternamn:</label><br>
+			<input type="text" name="enamn" id="enamn" > <br>
 
-			Vad tycker ni?:<br>
+			<label>Vad tycker ni?:</label><br>
 			<textarea name="meddelande" id="meddelande" cols="45" rows="5"></textarea> <br>
 
-			<input type="submit" name="skicka" id="skicka" value="Skicka meddelandet" />
+			<input type="submit" name="skicka" id="skicka" value="Skicka meddelandet" >
+			</form>
 			</center>
 		</footer>	
 	</body>
